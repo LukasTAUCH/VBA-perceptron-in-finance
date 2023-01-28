@@ -1,10 +1,10 @@
 # 1 er Partie : Data préparation 
 
-![](images/Image1.png)
+![](Images/Image1.png)
 
 Le bouton appelle un sub dans VBA qui va écrire les différents tableaux contenant les rendements, SMA…
 
-![](images/Image2.png)
+![](Images/Image2.png)
 
 Méthodes de rendements, SMA, standard déviation et Bollinger bands.
 
@@ -21,7 +21,7 @@ Donc on vient donc entrainer pour avoir le meilleur poids et sensitivité optima
 
 Ensuite il y a toutes les méthodes intermédiaires pour calculer exponentielle, fonction activation…
 
-![](images/Image3.png)  
+![](Images/Image3.png)  
 
 Ici on peut voir toutes les méthodes et notre classe MLP et toutes nos feuilles.
 
@@ -29,32 +29,32 @@ Donc dans les feuilles, nous avons celle présenté au-dessus avec les données 
 
 ## Interface :
 
-![Interface](images/Image4.png)  
+![Interface](Images/Image4.png)  
 
 ## AR-GARCH Solver :
 
-![](images/Image5.png)  
+![](Images/Image5.png)  
 
 ## AR-GARCH train test : 
 
-![](images/Image6.png)  
+![](Images/Image6.png)  
 
 Par rapport aux modules, nous avons le modules fonction lié à la page google avec les méthodes de rendements, sma…
 Ensuite, nous avons un module « Search » qui permet de récupérer la date et le prix de google.
 
 Ensuite un module « Affichage » pour print nos tableau et matrice de confusion.
 
-![](images/Image7.png)  
+![](Images/Image7.png)  
 
 Exemple d’affichage, je demande quelle matrice print sur quelle feuille, à quelle ligne et colonne.
 
 Avec la conversion de « Asc » d’une lettre en nombre puis inversement d’un Integer a un string avec « Chr » je peux incrémenter mes lettres. 
 
-![](images/Image8.png)  
+![](Images/Image8.png)  
 
 Ensuite, un module pour résoudre mon AR-GARCH en utilisant une macro que j’ai nettoyer pour ne garder que l’essentiel.
 
-![](images/Image9.png)  
+![](Images/Image9.png)  
 
 Et enfin le module, interface qui permet d’une première part compute l’AR-GARCH train test et calculer la matrice de confusion et de le print dans la feuille interface avec le début du train et fin tout comme le test. Ce code est ensuite implémenté en bouton (voir la page interface).
 
